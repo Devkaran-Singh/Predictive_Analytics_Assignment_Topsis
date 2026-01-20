@@ -20,6 +20,18 @@ Data Collection ----> Calculating Root Square Sum for each feature ---> Normaliz
 
 # 4. Results
 
-<img width="944" height="196" alt="image" src="" />
+## Input Dataset:
 
-<img width="944" height="196" alt="image" src="" />
+<img width="442" height="209" alt="image" src="https://github.com/user-attachments/assets/0c7ddf53-14ec-4c67-a329-9e9619f47a6b" />
+
+---
+
+## Output Result
+
+<img width="692" height="206" alt="image" src="https://github.com/user-attachments/assets/47f471f2-fc19-4e79-8801-e7b1c75ba6b0" />
+
+# 5. Web Application:
+
+<img width="1919" height="971" alt="image" src="https://github.com/user-attachments/assets/d3f75981-5479-4805-8c6f-5ee9f86e11ec" />
+
+

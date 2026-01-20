@@ -1,0 +1,8 @@
+LICENSE.txt
+setup.py
+Topsis_Devkaran_Singh_102303262/__init__.py
+Topsis_Devkaran_Singh_102303262/topsis.py
+Topsis_Devkaran_Singh_102303262.egg-info/PKG-INFO
+Topsis_Devkaran_Singh_102303262.egg-info/SOURCES.txt
+Topsis_Devkaran_Singh_102303262.egg-info/dependency_links.txt
+Topsis_Devkaran_Singh_102303262.egg-info/top_level.txt

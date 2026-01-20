@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Topsis Report Generator</title>
+    <link rel="stylesheet" href="output.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body
+    class="h-lvh flex justify-center items-center flex-col font-sans bg-gray-100"
+  >
+    <h1 class="text-4xl font-bold p-3">Topsis Report Generator</h1>
+    <form
+      class="border m-7 p-6 flex flex-col w-lvh rounded-xl shadow-xl bg-white border-white"
+    >
+      <label class="text-xl text-gray-700 font-medium pl-3"
+        >Dataset File:</label
+      >
+      <input
+        type="file"
+        name="dataset"
+        id="dataset"
+        accept=".csv"
+        class="bg-gray-100 rounded-sm m-3 text-md border border-gray-200 file:mr-4 py-2 px-4 file:border-0 file:font-semibold file:text-gray-700 hover:cursor-pointer"
+      />
+      <label class="text-xl text-gray-700 font-medium pl-3">Weight:</label>
+      <input
+        type="text"
+        name="weights"
+        id="weights"
+        placeholder="Enter weights seperated by comma"
+        class="bg-gray-100 rounded-sm m-3 text-md border border-gray-200 font-semibold text-gray-900 py-2 px-4 outline-none"
+      />
+      <label class="text-xl text-gray-700 font-medium pl-3">Impacts:</label>
+      <input
+        type="text"
+        name="impacts"
+        id="impacts"
+        placeholder="Enter impacts seperated by comma"
+        class="bg-gray-100 rounded-sm m-3 text-md border border-gray-200 font-semibold text-gray-900 py-2 px-4 outline-none"
+      />
+      <label class="text-xl text-gray-700 font-medium pl-3">Email ID:</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Enter your email id"
+        class="bg-gray-100 rounded-sm m-3 text-md border border-gray-200 font-semibold text-gray-900 py-2 px-4 outline-none"
+      />
+      <button
+        id="button"
+        type="submit"
+        class="outline-0 border-2 p-3 rounded-b-sm m-3 text-white text-xl bg-blue-600 font-medium hover:bg-blue-700 hover:cursor-pointer transition duration-150 active:opacity-70"
+      >
+        Get Report
+      </button>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
